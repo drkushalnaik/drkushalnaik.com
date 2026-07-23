@@ -114,7 +114,10 @@
     .portrait-wrap { position:relative; justify-self:end; width:min(100%,470px); }
     .portrait-frame { position:relative; aspect-ratio:4/5; overflow:hidden; background:var(--paper-deep); }
     .portrait-frame img { width:100%; height:100%; object-fit:cover; object-position:center 42%; }
-    .portrait-wrap::before { content:""; position:absolute; width:72%; height:72%; right:-1.4rem; bottom:-1.4rem; border:1px solid var(--vermillion); z-index:-1; }
+    
+    .portrait-wrap {  position: relative;   justify-self: end;   width: min(100%, 470px); }
+    .portrait-frame {   position: relative;   aspect-ratio: 4 / 5;   overflow: hidden;   background: var(--paper-deep);   box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
+    .portrait-wrap::before {   content: none; }
     .portrait-caption { display:grid; grid-template-columns:1fr auto; gap:1rem; margin-top:1rem; padding-top:.85rem; border-top:1px solid var(--line); color:var(--muted); font-size:.77rem; }
     .portrait-caption a { text-decoration:none; color:var(--blue); }
 
