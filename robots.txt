@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://drkushalnaik.github.io/drkushalnaik.com/sitemap.xml
+Sitemap: https://drkushalnaik.github.io/sitemap.xml

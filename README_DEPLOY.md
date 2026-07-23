@@ -1,19 +1,15 @@
-# GitHub Pages deployment — default github.io address
+# Kushal Naik Website V2
 
-This version intentionally does **not** use a custom domain.
+Upload these files directly to the root of the `drkushalnaik.github.io` repository:
 
-Live address:
-
-`https://drkushalnaik.github.io/drkushalnaik.com/`
-
-Upload these files to the repository root:
-
-- `.nojekyll`
-- `favicon.svg`
 - `index.html`
+- `kushal-naik-portrait.webp`
+- `social-card.jpg`
+- `favicon.svg`
 - `robots.txt`
 - `sitemap.xml`
+- `.nojekyll`
 
-Do not add a `CNAME` file. In Repository Settings → Pages, leave **Custom domain** blank. Publish from `main` and `/(root)`.
+The site is configured for `https://drkushalnaik.github.io/`. There is no custom-domain CNAME file and no public email address.
 
-Your separately managed `drkushalnaik.com` and `www.drkushalnaik.com` can continue forwarding to LinkedIn.
+GitHub will replace existing files that have the same names. After committing, wait for the Pages deployment and force refresh with Ctrl+F5.
